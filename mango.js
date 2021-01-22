@@ -9,7 +9,7 @@ class Mango{
         this.r = r;
         this.x = x;
         this.y = y;
-        this.image = loadImage("images/mango.png");
+        this.image = loadImage("mango.png");
         this.body = Bodies.circle(this.x, this.y, this.r, options);
         //this.image.scale = 0.4;
         World.add(world, this.body);

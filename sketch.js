@@ -14,8 +14,8 @@ var tree,treeImg;
 
 function preload()
 {
-	boyImg = loadImage("images/boy.png");
-	treeImg = loadImage("images/tree.png");	
+	boyImg = loadImage("boy.png");
+	treeImg = loadImage("tree.png");	
 }
 
 function setup() {
